@@ -18,7 +18,6 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		DigitalClock dc = (DigitalClock) findViewById(R.id.clock);
-		// what can i do with DigitalClock also? for display only
 
 		ImageView imageView = (ImageView) findViewById(R.id.image_view);
 		ImageDownloader.download(URL, imageView);
