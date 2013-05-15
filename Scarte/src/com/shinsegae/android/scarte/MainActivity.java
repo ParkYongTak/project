@@ -9,7 +9,6 @@ import android.widget.ImageView;
 public class MainActivity extends Activity {
 
 	private static final String URL = "http://www.sinc.co.kr/Upload/BuildCase_20120810083952_1.JPG";
-	
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
