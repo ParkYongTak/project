@@ -9,7 +9,6 @@ import android.widget.ImageView;
 public class MainActivity extends Activity {
 
 	private static final String URL = "http://www.sinc.co.kr/Upload/BuildCase_20120810083952_1.JPG";
-	//private static final String URL = "http://theeye.pe.kr/attach/1/1149348246.png";
 	
 
 	@Override
@@ -26,7 +25,6 @@ public class MainActivity extends Activity {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
